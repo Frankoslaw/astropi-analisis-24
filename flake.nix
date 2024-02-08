@@ -24,13 +24,25 @@
 
           buildInputs = with pkgs; [
             python3
+            jupyter
+
             python3Packages.opencv4
             python3Packages.exif
+            python3Packages.ipykernel
+            python3Packages.ipython
+            python3Packages.jupyter-core
+            python3Packages.jupyterlab
+            python3Packages.matplotlib
+            python3Packages.numpy
+            python3Packages.pillow
+            python3Packages.tqdm
+
             poetry
             opencv
             pkg-config
             gtk2
             gtk2-x11
+            glib
           ];
         };
       }

@@ -1,4 +1,6 @@
-.direnv
 .vscode
-photos/
+.direnv
+photos
+masks
 astropi-iss-speed-go
+.ipynb_checkpoints
